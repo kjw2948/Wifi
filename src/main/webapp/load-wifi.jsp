@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-	<title>와이파이 정보 구하기</title>
+	<h1>와이파이 정보 구하기</h1>
+	<jsp:include page="inc_menu.jsp"/>
 	<link href="/res/css/main.css" rel="stylesheet"/>
 </head>
 <body>
-	<h1>와이파이 정보 구하기</h1>
-	<jsp:include page="inc_menu.jsp"/>
+	<h1>14400개의 와이파이가 검색 되었습니다. </h1>
 </body>
 </html>

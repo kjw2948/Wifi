@@ -4,8 +4,8 @@
 <head>
 	<h1>와이파이 정보 구하기</h1>
 	<jsp:include page="inc_menu.jsp"/>
-
 </head>
 <body>
+	<h2>연결 되니?</h2>
 </body>
 </html>
