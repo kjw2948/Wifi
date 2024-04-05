@@ -4,9 +4,9 @@
 <head>
 	<title>와이파이 정보 구하기</title>
 	<link href="/res/css/main.css" rel="stylesheet"/>
-	<script src="/res/js/index.js"></script>
 </head>
 <body>
-	<h1><link href="/step3.jsp" /></h1>
+	<h1>와이파이 정보 구하기</h1>
+	<jsp:include page="inc_menu.jsp"/>
 </body>
 </html>

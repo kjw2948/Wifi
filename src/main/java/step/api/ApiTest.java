@@ -1,4 +1,4 @@
-package wifi;
+package step.api;
 
 public class ApiTest {
     public static void main(String[] args) {
