@@ -5,14 +5,19 @@ import zerobase.wifi.dto.WifiInfoDto;
 import zerobase.wifi.model.WifiInfoDetailModel;
 import zerobase.wifi.model.WifiInfoModel;
 
+import java.sql.Connection;
 import java.util.List;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
-public class WifiService extends SqliteConnection {
+public class WifiService extends MariaConnection {
 
     /**
      * 와이파이 정보를 저장
      */
     private boolean add(WifiInfoDto model) {
+        WifiService wifiService = new WifiService();
+        Connection connection = wifiService.getConnect();
 
         throw new RuntimeException("구현해 주세요.");
     }
