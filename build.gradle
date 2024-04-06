@@ -29,6 +29,7 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 
     implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+    implementation group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '3.3.3'
 }
 
 test {
