@@ -1,5 +1,6 @@
 package step.api;
 
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -9,7 +10,7 @@ public class OpenApi {
     /**
      * 오픈 API 샘플을 통한 JSON 문자열 리턴
      */
-    public static String get(int startPage, int endPage) {
+    public static String get(int startPage, int endPage){
 
         String request = null;
 
@@ -36,7 +37,7 @@ public class OpenApi {
             }
             rd.close();
             conn.disconnect();
-            request = sb.toString();
+            request =sb.toString();
 
         } catch (Exception e) {
             System.out.println("openApi error" + e.getMessage());
