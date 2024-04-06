@@ -11,7 +11,7 @@
 <body>
 	<h1>
 		<button type="button" onclick="location.href='history.jsp' ">내 위치 가져오기</button>
-		<button type="button" onclick="location.href='load-wifi.jsp' ">근처 Wifi 정보 보기</button>
+		<button type="button" onclick="location.href='near-wifi.jsp' ">근처 Wifi 정보 보기</button>
 	</h1>
 </body>
 </html>
