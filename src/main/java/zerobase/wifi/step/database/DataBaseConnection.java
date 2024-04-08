@@ -1,4 +1,4 @@
-package step.database;
+package zerobase.wifi.step.database;
 
 
 import zerobase.wifi.service.MariaConnection;

@@ -1,4 +1,4 @@
-package step.api;
+package zerobase.wifi.step.api;
 
 
 public class ApiTest {

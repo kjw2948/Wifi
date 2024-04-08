@@ -1,7 +1,9 @@
 package zerobase.wifi.model;
 
 
-public class WifiInfoModel {
+import zerobase.wifi.service.MariaConnection;
+
+public class WifiInfoModel extends MariaConnection {
 
 }
 

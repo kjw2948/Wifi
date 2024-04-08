@@ -1,4 +1,4 @@
-<%@ page import="step.jsp.JspTest" %>
+<%@ page import="zerobase.wifi.step.jsp.JspTest" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" trimDirectiveWhitespaces="true" %>
 <%
     JspTest jspTest = new JspTest();

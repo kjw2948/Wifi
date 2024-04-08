@@ -1,5 +1,5 @@
 
-package step.jsp;
+package zerobase.wifi.step.jsp;
 
 public class JspTest {
 
